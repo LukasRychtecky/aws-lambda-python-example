@@ -6,7 +6,14 @@ Requirements
 
 * Python 2.7
 * [AWS CLI](https://aws.amazon.com/cli/)
+* AWS account and a config with credentials in `~/.aws/config`, e.g.:
 
+```cfg
+[profile user]
+aws_access_key_id = asdf
+aws_secret_access_key = qwer
+region = eu-central-1
+```
 
 Tasks
 -----
